@@ -1,6 +1,6 @@
 # BDM
-#  |--data
-#      |--JD
-#      |--UB
-#      |--kaggle
-#  |--main.py
+  |--data
+      |--JD
+      |--UB
+      |--kaggle
+  |--main.py
