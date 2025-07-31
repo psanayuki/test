@@ -122,7 +122,7 @@ def check_output_path(output_dir):
 
 def set_color(log, color, highlight=True):
     '''
-    Reference from: https://recbole.io/docs/v1.0.0/_modules/recbole/utils/logger.html
+    Reference from: recbole
     '''
     color_set = ['black', 'red', 'green', 'yellow', 'blue', 'pink', 'cyan', 'white']
     try:
