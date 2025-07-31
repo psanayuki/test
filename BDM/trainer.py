@@ -289,7 +289,7 @@ class MyTrainer(Trainer):
                     ground_truth = id_tensors['ground_truth'].to(self.device)
                     
                     # TODO
-                    scores_rec, rep_diffu, _, _, _, _, _ = self.model(input_item, None, behavior_sequence=input_beha, behavior_tag=target_beha[:,-1], train_flag=False) # TODO tag部分应该设置为None,就算传入target_item[:,-1]也是用不上的
+                    scores_rec, rep_diffu, _, _, _, _, _ = self.model(input_item, None, behavior_sequence=input_beha, behavior_tag=target_beha[:,-1], train_flag=False) 
                     item_prob = self.calculate_all_item_prob(rep_diffu).cpu().data.numpy().copy()
                     
                     
